@@ -1,5 +1,3 @@
-# Readme-testing
-
 ![This is an image](https://www.sigmacomputing.com/wp-content/uploads/2020/09/sigma-logo.svg)
 
 # Getting Started with Create React App
