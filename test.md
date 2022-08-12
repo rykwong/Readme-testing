@@ -18,7 +18,7 @@ Get the code from GitHub: https://github.com/Microsoft/powerbi-visuals-sunburst
 
 ![Step 2](https://github.com/rykwong/Readme-testing/blob/main/test2.svg)
 
-#### Step n More steps on how to use the plugin
+#### Step n: More steps on how to use the plugin
 
 
 
