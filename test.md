@@ -12,11 +12,11 @@ Get the code from GitHub: https://github.com/Microsoft/powerbi-visuals-sunburst
 
 #### Step 1: Select a data source
 
-![Step 1](https://github.com/rykwong/Readme-testing/blob/main/test.svg)
+![Step 1](https://raw.githubusercontent.com/rykwong/Readme-testing/main/test.svg)
 
 #### Step 2 Select multiple **attribute columns** as the dimension
 
-![Step 2](https://github.com/rykwong/Readme-testing/blob/main/test2.svg)
+![Step 2](https://raw.githubusercontent.com/rykwong/Readme-testing/main/test2.svg)
 
 #### Step n: More steps on how to use the plugin
 
