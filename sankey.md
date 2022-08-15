@@ -1,6 +1,6 @@
 # How to use the Sankey plugin
 
-![](RackMultipart20220811-1-tgekad_html_df0352d5d5edb19c.png)
+<!-- ![](RackMultipart20220811-1-tgekad_html_df0352d5d5edb19c.png) -->
 
 ## Introduction
 
@@ -15,7 +15,7 @@ Sankeys are also good at showing contributions. For example "which product lines
 
 We start with a table that has no groupings. Group by as many columns as you like. Each grouping becomes a Sankey column.
 
-![](RackMultipart20220811-1-tgekad_html_5aa3cdcae3cdd44d.png)
+<!-- ![](RackMultipart20220811-1-tgekad_html_5aa3cdcae3cdd44d.png) -->
 
 Recommended: 3-5 groupings is ideal.
 
@@ -30,7 +30,7 @@ Potential measure boxed in red. Pick one measure.
 
 In this example, the Sigma table has 5 groupings (orange boxes) and 4 grouping calculations (red boxes). The top level grouping (product type) doesn't have a calculation.
 
-![](RackMultipart20220811-1-tgekad_html_4b78437720736441.png)
+<!-- ![](RackMultipart20220811-1-tgekad_html_4b78437720736441.png) -->
 
 Each grouping maps to a Sankey column, indicated by arrows. A column is made up of nodes (e.g. Arts & Entertainment). Nodes in one column are connected to nodes in another column using edges (lines). The edge thickness and value is determined by the aggregate on the "to" (right) side of the edge pair.
 
@@ -49,7 +49,7 @@ Notes:
 - The first column (PRODUCT TYPE in this example) does not have a corresponding calculation.
 - There will always be one fewer measure. E.g. if you have 5 dimensions, there will be 4 measures (n-1).
 
-![](RackMultipart20220811-1-tgekad_html_df0d695f48e5e516.png)
+<!-- ![](RackMultipart20220811-1-tgekad_html_df0d695f48e5e516.png) -->
 
 1.
 ### Group Aggregates map to Sankey lines (edges)
@@ -57,7 +57,9 @@ Notes:
 This example shows the edge connecting nodes "Arts & Entertainment" (left) → "18-35" (right). The aggregate on the right for "18-35" ("Age Group Revenue") is used to determine the thickness of the line.
 
 1.
-### Sankey edges automatically aggregate multiple values for like pairs ![](RackMultipart20220811-1-tgekad_html_8e4d3f33089bea72.png)
+### Sankey edges automatically aggregate multiple values for like pairs 
+
+<!-- ![](RackMultipart20220811-1-tgekad_html_8e4d3f33089bea72.png) -->
 
 As we get deeper into the grouping hierarchy (groupings to the right), we see repeating pairs.
 
@@ -65,7 +67,7 @@ For example, "18-35 → Cash" exists multiple times, once for each product type.
 
 The boxed values for Purch Method Revenue are aggregated into a single edge.
 
-![](RackMultipart20220811-1-tgekad_html_873f8c8ebefd2fcd.png)
+<!-- ![](RackMultipart20220811-1-tgekad_html_873f8c8ebefd2fcd.png) -->
 
 ## Plugin Details
 
@@ -75,4 +77,4 @@ Plugin URL: [https://sigma-sankey-ja2z.netlify.app/](https://sigma-sankey-ja2z.n
 
 Registering the plugin in Sigma:
 
-![](RackMultipart20220811-1-tgekad_html_ac74106be3817d89.png)
+<!-- ![](RackMultipart20220811-1-tgekad_html_ac74106be3817d89.png) -->
