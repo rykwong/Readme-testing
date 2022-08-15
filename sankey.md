@@ -10,8 +10,7 @@ Sankeys are also good at showing contributions. For example "which product lines
 
 ## Instructions
 
-1.
-### Starting point to build a Sankey – Raw Table
+### 1. Starting point to build a Sankey – Raw Table
 
 We start with a table that has no groupings. Group by as many columns as you like. Each grouping becomes a Sankey column.
 
@@ -25,8 +24,7 @@ Potential grouping columns boxed in orange.
 
 Potential measure boxed in red. Pick one measure.
 
-2.
-### Grouped Columns map to Sankey columns (nodes)
+### 2. Grouped Columns map to Sankey columns (nodes)
 
 In this example, the Sigma table has 5 groupings (orange boxes) and 4 grouping calculations (red boxes). The top level grouping (product type) doesn't have a calculation.
 
@@ -36,8 +34,7 @@ Each grouping maps to a Sankey column, indicated by arrows. A column is made up 
 
 Note, only sum() is supported for the value columns. In this example, the formula for each of the calculated columns is "sum(revenue)".
 
-3.
-### Setting the Sankey plugin properties
+### 3. Setting the Sankey plugin properties
 
 Grouping columns (orange boxes) go into "DIMENSION"
 
@@ -51,13 +48,11 @@ Notes:
 
 <!-- ![](RackMultipart20220811-1-tgekad_html_df0d695f48e5e516.png) -->
 
-4.
-### Group Aggregates map to Sankey lines (edges)
+### 4. Group Aggregates map to Sankey lines (edges)
 
 This example shows the edge connecting nodes "Arts & Entertainment" (left) → "18-35" (right). The aggregate on the right for "18-35" ("Age Group Revenue") is used to determine the thickness of the line.
 
-5.
-### Sankey edges automatically aggregate multiple values for like pairs 
+### 5. Sankey edges automatically aggregate multiple values for like pairs 
 
 <!-- ![](RackMultipart20220811-1-tgekad_html_8e4d3f33089bea72.png) -->
 
