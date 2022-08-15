@@ -51,12 +51,12 @@ Notes:
 
 <!-- ![](RackMultipart20220811-1-tgekad_html_df0d695f48e5e516.png) -->
 
-1.
+2.
 ### Group Aggregates map to Sankey lines (edges)
 
 This example shows the edge connecting nodes "Arts & Entertainment" (left) → "18-35" (right). The aggregate on the right for "18-35" ("Age Group Revenue") is used to determine the thickness of the line.
 
-1.
+3.
 ### Sankey edges automatically aggregate multiple values for like pairs 
 
 <!-- ![](RackMultipart20220811-1-tgekad_html_8e4d3f33089bea72.png) -->
